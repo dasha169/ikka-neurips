@@ -2,8 +2,8 @@
 
 Topologically motivated anomaly-weighting framework for robust visual servoing under distribution shift.
 
-> **Paper:** *IKKA: Inversion Classification via Critical Anomalies for Robust Visual Servoing*
-> Under review at NeurIPS 2026. Preprint: [arXiv:2604.08754](https://arxiv.org/abs/2604.08754)
+> **Preprint:** *IKKA: Inversion Classification via Critical Anomalies for Robust Visual Servoing*
+> [arXiv:2604.08754](https://arxiv.org/abs/2604.08754)
 
 ## Overview
 
@@ -19,23 +19,18 @@ where:
 The weight modulates control updates near ambiguous decision regions. On a 230-run Raspberry Pi 4 benchmark, IKKA reduces the 95th-percentile lateral error by 24 % under stress conditions while increasing throughput from 20.0 to 24.8 Hz.
 
 ## Repository structure
-
-```
 ikka/
 ├── weight.py          # W(x) = E(x) · T(x) · M(x)
 ├── extremality.py     # E component
 ├── transversality.py  # T component
 ├── persistence.py     # M component (sublevel-set H₁)
 └── control.py         # bounded IBVS yaw-rate command
-
 tests/
 └── test_weight.py     # smoke tests
-
 analysis.py            # benchmark replay over manifest.csv
 manifest.csv           # 230-run experiment manifest
 requirements.txt
 LICENSE                # MIT
-```
 
 ## Installation
 
