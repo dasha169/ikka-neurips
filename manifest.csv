@@ -1,0 +1,7 @@
+run_id,group,tracker,illumination,occlusion_s,seed
+1,screen,HSV,nominal,0.0,42
+2,screen,HSV+MOSSE,nominal,0.0,42
+3,screen,HSV+KCF,nominal,0.0,42
+4,screen,HSV+CSRT,nominal,0.0,42
+5,screen,Hybrid,nominal,0.0,42
+6,screen,Hybrid+IKKA,nominal,0.0,42
