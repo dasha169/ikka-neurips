@@ -2,9 +2,6 @@
 
 Topologically motivated anomaly-weighting framework for robust visual servoing under distribution shift.
 
-> **Preprint:** *IKKA: Inversion Classification via Critical Anomalies for Robust Visual Servoing*
-> [arXiv:2604.08754](https://arxiv.org/abs/2604.08754)
-
 ## Overview
 
 IKKA introduces a topological anomaly weight
